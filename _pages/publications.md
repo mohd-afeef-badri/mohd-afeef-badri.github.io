@@ -34,6 +34,7 @@ author_profile: true
 ### Conferences
 
 ------
+1. <span style="color:blue">M.A. Badri, G. Grospellier, C.A. Leger, K. Alaire, E. Foerster,  A. L'Heritier</span> "ArcaneFEM: Scalable GPGPU Implicit FEM Solver for Unstructured Meshes." *Rencontres Arcane Arcane User Day*, Bruyères-le-Châte, France, 24, Match, (2025), PRESENTATION
 1. <span style="color:blue">M.A. Badri, G. Grospellier, C.A. Leger, K. Alaire, E. Foerster,  A. L'Heritier</span> "ArcaneFEM: Implicit FEM with GPU Acceleration for Unstructured Meshes." *CEA-RIKEN  Annual Workshop*, Kobe, Japan, 11-12, December, (2024), PRESENTATION
 1. <span style="color:blue">N. Rechatin-Noël, P. Omnes, C. Bourcier,  M.A. Badri,</span> "Adaptive polytopal meshing for numerical simulation." *POlytopal Element Methods in Mathematics and Engineering, POEMS 2024*, Paris, France, 3-6 December, (2024),  PRESENTATION
 1. <span style="color:blue">M.A. Badri, A. Lomet, E. Foerster,</span> "GPU & ML Assisted High-fidelity Earthquake FEM Simulations*, Paris, France, 11-13, September, (2024), PRESENTATION
