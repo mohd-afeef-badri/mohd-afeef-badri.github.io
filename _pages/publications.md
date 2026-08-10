@@ -13,6 +13,7 @@ author_profile: true
 ### Journals
 
 ------
+1. <span style="color:blue">M.A. Badri, G. Rastiello, E. Foerster,</span> (2026). "PSD: Parallel Finite Element Solver for Continuum Dynamics." *Journal of Open Source Software*, 11(123), 9411.
 1. <span style="color:blue">M.A. Badri, G. Rastiello, E. Foerster,</span> (2021). "Preconditioning strategies for vectorial finite element linear systems arising from phase-field models for fracture mechanics." *Computer Methods in Applied Mechanics and Engineering*, 373, 113472.
 1. <span style="color:blue">P. Jolivet, M. A. Badri, Y. Favennec,</span> (2021). "Deterministic radiative transfer equation solver on unstructured tetrahedral meshes: Efficient assembly and preconditioning." *Journal of Computational Physics*, 437, 110313.
 1. <span style="color:blue">M. A. Badri,  P. Jolivet, Y. Favennec, B. Rousseau,</span> (2020). "Conductive-radiative heat transfer within SiC-based cellular ceramics at high-temperatures: A discrete-scale finite element analysis." *Finite Elements in Analysis and Design*, 178, 103410.
