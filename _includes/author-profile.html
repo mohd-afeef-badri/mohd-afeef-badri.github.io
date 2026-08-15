@@ -6,16 +6,15 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
-    {% if author.avatar contains "://" %}
-      <img src="{{ author.avatar }}" alt="{{ author.name }}" fetchpriority="high" />
-    {% else %}
-      <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" fetchpriority="high" />
-    {% endif %}
-  </div>
+  {% if author.avatar contains "://" %}
+    {% assign author_avatar = author.avatar %}
+  {% else %}
+    {% assign author_avatar = author.avatar | prepend: "/images/" | prepend: base_path %}
+  {% endif %}
+  <div class="author__avatar" style="background-image: url('{{ author_avatar }}');" role="img" aria-label="Portrait of {{ author.name | default: site.name }}"></div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
+    {% if author.name %}<h3 class="author__name">{{ author.name }}</h3>{% endif %}
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>

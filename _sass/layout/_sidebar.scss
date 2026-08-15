@@ -146,25 +146,17 @@
   width: 36px;
   height: 36px;
   overflow: hidden;
-  position: relative;
   border-radius: 50%;
+  border: 1px solid var(--global-border-color);
   background-color: var(--global-bg-color);
+  background-position: center 36%;
+  background-repeat: no-repeat;
+  background-size: auto 135%;
 
   @include breakpoint($large) {
     display: block;
     width: 175px;
     height: 175px;
-    border: 1px solid var(--global-border-color);
-  }
-
-  img {
-    position: absolute;
-    top: -12.5%;
-    left: 50%;
-    width: auto;
-    height: 134.5%;
-    max-width: none;
-    transform: translateX(-50%);
   }
 }
 
